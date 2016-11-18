@@ -1,0 +1,1 @@
+has_and_belong_to_many 时候，要想 user.users_projects.find_by ...   就必须 建一个 UsesProjcet 的model 里面不用写别的
