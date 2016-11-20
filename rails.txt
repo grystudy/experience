@@ -1,3 +1,5 @@
 has_and_belong_to_many 时候，要想 user.users_projects.find_by ...   就必须 建一个 UsesProjcet 的model 里面不用写别的
 
 家里电脑 PG::ConnectionBad: FATAL: Peer authentication failed for user "postgres"  需要在 database.yml 里面写明 host: localhost https://stackoverflow.com/questions/9987171/rails-3-2-fatal-peer-authentication-failed-for-user-pgerror
+
+通过改config.assets.compile 为 true 解决production模式下的swaager不显示问题
