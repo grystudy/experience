@@ -3,3 +3,4 @@ has_and_belong_to_many 时候，要想 user.users_projects.find_by ...   就必�
 家里电脑 PG::ConnectionBad: FATAL: Peer authentication failed for user "postgres"  需要在 database.yml 里面写明 host: localhost https://stackoverflow.com/questions/9987171/rails-3-2-fatal-peer-authentication-failed-for-user-pgerror
 
 通过改config.assets.compile 为 true 解决production模式下的swaager不显示问题
+swagger api内容显示不出来有可能是没添加config/initialize/下 /home/yy/myGit/mx_vehicle_api/config/initializers/swagger-rails.rb 这个
