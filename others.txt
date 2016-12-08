@@ -1,2 +1,3 @@
 https://github.com/cikai/cs-video-courses   很多资源知识
 https://guides.github.com/features/mastering-markdown/                markdown可以学习学习
+repo 不能下载clone.bundle   http://blog.csdn.net/xiaokeweng/article/details/46743409
